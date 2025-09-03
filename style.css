@@ -18,11 +18,9 @@
 
 :root{
     --background-color: linear-gradient(to bottom right,#557D80 50%, #662007) fixed no-repeat;
-    --text-color: #FFFFFF
 }
 .light:root{
     --background-color: linear-gradient(to bottom right,#86E5FF 4%, #CAA4FF) fixed no-repeat;
-    --text-color: #000000
 }
 
 body{
@@ -105,7 +103,7 @@ body{
 }
 
 footer{
-    color: var(--text-color);
+    color: white;
     font-size: 19px;
 }
     footer p{
@@ -119,14 +117,14 @@ footer{
 
     footer a{
         text-decoration: none;
-        color: var(--text-color);
+        color: white;
     }
         footer a:hover{
             text-decoration-line: underline;
             text-decoration-style: dotted;
         }
     footer button{
-        color: var(--text-color);
+        color: white;
         font-size: 19px;
         }
         
