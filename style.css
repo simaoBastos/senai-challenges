@@ -106,6 +106,10 @@ footer{
     color: white;
     font-size: 19px;
 }
+    footer button{
+        color: white;
+        font-size: 19px;
+    }
     footer p{
         display: flex;
         flex-direction: row;
@@ -123,9 +127,5 @@ footer{
             text-decoration-line: underline;
             text-decoration-style: dotted;
         }
-    footer button{
-        color: white;
-        font-size: 19px;
-    }
         
 
