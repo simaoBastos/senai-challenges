@@ -18,18 +18,17 @@
 }
 
 :root{
-    --gradient: linear-gradient(to bottom right, #557D80, #662007, #557D80) fixed no-repeat;
-
+--gradient: linear-gradient(to bottom right, #557D80 25%, #662007 50%, #557D80 75%) fixed no-repeat;
 }
 .light:root{
-    --gradient: linear-gradient(to bottom right,#86E5FF, #b784ff, #86E5FF) fixed no-repeat;
+    --gradient: linear-gradient(to bottom right,#86E5FF 25% , #b784ff 50%, #86E5FF 75%) fixed no-repeat;
 }
 
 @keyframes gradient {
-  from, to{
+  from{
     background-position: 0% 0%;
   }
-  99%{
+  to{
     background-position: 100% 100%;
   }
 }
@@ -37,7 +36,8 @@
 
 body{
     background: var(--gradient);
-    background-size: 400% 400%;
+    background-size: 500% 500%;
+
     animation: gradient 5s linear infinite;
     display: flex;
     justify-content: center;
