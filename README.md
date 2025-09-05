@@ -2,5 +2,5 @@
 
 <p align="center">
 Repository page link:<br>
-<a href="www.simaoBastos.github.io/senai-challenges/">simaoBastos.github.io/senai-challenges</a>
+https://simaobastos.github.io/senai-challenges/
 </p>
