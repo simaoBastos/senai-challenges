@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
     <title>Desafios</title>
 </head>
 <body>
@@ -15,12 +14,13 @@
         <div id="box_challenges">
             <label>Desafios</label>
             <div id="buttons">
-                <button onclick="">Desafio 01</button>
-                <button onclick="">Desafio 02</button>
-                <button onclick="">Desafio 03</button>
-                <button onclick="">Desafio 04</button>
-                <button onclick="">Desafio 05</button>
-                <button onclick="">Desafio 06</button>
+                <script src="./js/challenges.js"></script>
+                <button onclick="challenge01()">Desafio 01</button>
+                <button onclick="challenge02()">Desafio 02</button>
+                <button onclick="challenge03()">Desafio 03</button>
+                <button onclick="challenge04()">Desafio 04</button>
+                <button onclick="challenge05()">Desafio 05</button>
+                <button onclick="challenge06()">Desafio 06</button>
             </div>
         </div>
     </div>    
@@ -29,6 +29,7 @@
 </body>
 
 <footer>
+    <script src="./js/script.js"></script>
     <p><button onclick="toggleMode()" id="hide_button" >©</button> feito por <a href="https://github.com/simaobastos" target="_blank">saimon</a></p>
     <p>2025 </p>
 </footer>
