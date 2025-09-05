@@ -18,14 +18,27 @@
 }
 
 :root{
-    --background-color: linear-gradient(to bottom right,#557D80 50%, #662007) fixed no-repeat;
+    --gradient: linear-gradient(to bottom right, #557D80, #662007, #557D80) fixed no-repeat;
+
 }
 .light:root{
-    --background-color: linear-gradient(to bottom right,#86E5FF 4%, #CAA4FF) fixed no-repeat;
+    --gradient: linear-gradient(to bottom right,#86E5FF, #b784ff, #86E5FF) fixed no-repeat;
 }
 
+@keyframes gradient {
+  from, to{
+    background-position: 0% 0%;
+  }
+  99%{
+    background-position: 100% 100%;
+  }
+}
+
+
 body{
-    background: var(--background-color);
+    background: var(--gradient);
+    background-size: 400% 400%;
+    animation: gradient 5s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +107,7 @@ body{
     }
     
     #buttons button:hover{
-        background-color: #4370ca;
+        background-color: #2e71c8;
         cursor: pointer;
     }
 
